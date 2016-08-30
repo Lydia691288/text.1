@@ -1,0 +1,310 @@
+/*清除默认样式*/
+body,h,h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,dl,dt,dd,ol,ul,li,th,td,div,span,img,p,button{padding:0;margin:0;}
+h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,th{font-weight:normal;}
+a{text-decoration:none; cursor:pointer;color:inherit;}
+ul,ol,li{list-style:none;}
+table{border-collapse:collapse}
+input{border:none;margin:0;padding:0;background:none}
+.clearfix:after{content:"";display:block;}
+.left{float:left;}
+.right{float:right;}
+
+
+html{
+	width:100%;
+	min-width:1230px;
+	max-width:1920px;
+	font-family: "微软雅黑";
+}
+body{
+	width:100%;
+	background-color:#F7F7F7;
+	color:
+}
+/*页眉部分*/
+#wrap{
+	width:80%;
+	padding:0 10%;
+	height:40px;
+	background-color:#1d7ad9;
+}
+#wrap h0{
+	color:white;
+	font-size:13px;
+	float:left;
+	height:40px;
+	line-height:40px;
+}
+#landing{
+	float:right;
+	width:60px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	font-size:16px;
+	border-left:1px solid white;
+	transition:width 1s;
+}
+#landing:hover{
+	background-color:white;
+	color:black;
+	width:100px;
+	height:40px;
+}
+#enroll{
+	float:right;
+	width:60px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	font-size:16px;
+	border-right:1px solid white;
+	transition: width 1s;
+}
+#enroll:hover{
+	background-color:white;
+	color:black;
+	width:100px;
+	height:40px;
+}
+/*页眉部分结束*/
+/*导航部分*/
+#navigation{
+	width:80%;
+	height:50px;
+	padding:30px 10%;
+}
+#navigation  .link{
+	float:right;
+	padding:10px;
+	height:30px;
+	line-height:30px;
+	box-shadow:1px 1px 3px #D3D3D3;
+	-webkit-box-shadow:1px 1px 3px #D3D3D3;
+	-moz-box-shadow:1px 1px 3px #D3D3D3;
+	border-radius:5px;
+	-wekit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-left:60px;
+	background-color:white;
+	color:#2B2B2B;
+}
+#navigation  .link:hover{
+	background-color:#1d7ad9;
+	color:white;
+}
+/*导航部分结束*/
+/*主体部分*/
+#main{
+	width:80%;
+	padding:0 10%;
+	height:1200px;
+	background-color:white;
+}
+/*流程条部分*/
+#bar{
+	width:100%;
+	height:100px;
+}
+/*流程条部分结束*/
+h1{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	font-size:24px;
+}
+/*内容部分*/
+#container{
+	width:100%;
+	height:880px;
+	background-color:#F1F1F1;
+	border-radius:5px;
+}
+#container  h2{
+	width:95%;
+	height:50px;
+	line-height:50px;
+	margin-left:18px;
+	color:#1d7ad9;
+	font-size:21px;
+	display:block;
+	border:1px solid #F1F1F1;
+	float:left;
+}
+/*箱型选择*/
+#container #style{
+	width:100%;
+	height:90px;
+	background-color:white;
+	line-height:90px;
+	border-left:1px solid #CECECE;
+	border-right:1px solid #CECECE;
+	border-bottom:1px solid #CECECE;
+	float:left;
+	display:block;
+}
+.select{
+	width:140px;
+	height:30px;
+	float:right;
+	margin-right:20px;
+	border:1px solid #CECECE；
+	/*background: url("images/select_03.png") no-repeat right 4px center；为何背景图片出不来？*/
+}
+.select1{
+	text-align:center;
+	width:140px;
+	height:30px;
+	font-size:20px;
+	appearance: none;
+}
+#container  .box-style{
+	margin:0 30px;
+	font-size:20px;
+	float:left;
+	position:relative;
+}
+#container  .box-style1{
+	display:none;
+}
+.round{
+	width:16px;
+	height:16px;
+	border:1px solid #CECECE;
+	border-radius:8px;
+	margin-right:10px;
+	float:left;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+input[type="radio"]:checked + .round{
+	width:4px;
+	height:4px;
+	border:7px solid #1d7ad9;
+}
+/*箱型选择结束*/
+/*尺寸选择*/
+#size{
+	width:100%;
+	height:180px;
+	line-height:180px;
+	border:1px solid #CECECE;
+	float:left;
+	background-color:white;
+}
+#box-size{
+	width:80%;
+	height:120px;
+	margin:30px 0;
+	line-height:60px;
+	font-size:20px;
+	float:left;
+}
+.box-size1{
+	width:60px;
+	height:30px;
+	border:1px solid #CECECE;
+}
+/*尺寸选择结束*/
+/*材质选择*/
+#material{
+	width:100%;
+	height:150px;
+	line-height:150px;
+	border:1px solid #CECECE;
+	float:left;
+	background-color:white;
+	display:block;
+}
+/*材质选择结束*/
+/*下一步*/
+#next{
+	width:100%;
+	height:300px;
+	line-height:300px;
+	border:1px solid #CECECE;
+	text-align:center;
+	float:left;
+	background-color:white;
+}
+h9{
+	background-color:red;
+	width:160px;
+	height:60px;
+	text-align:center;
+	color:white;
+	font-size:22px;
+	padding:20px;
+	border-radius:3px;
+}
+/*下一步结束*/
+/*内容部分结束*/
+/*主体部分结束*/
+/*底部*/
+#bottom{
+	width:80%;
+	padding:60px 10%;
+	height:80px;
+}
+#bottom h10{
+	font-size:14px;
+	color:#B8B8B8;
+	width:25%;
+	height:100px;
+	float:left;
+}
+#bottom .ul-bottom{
+	width:36%;
+	padding:0 7%;
+	height:80px;
+	float:left;
+}
+
+#bottom .a-bottom{
+	width:100px;
+	text-align:center;
+	height:40px;
+	font-size:12px;
+	color:#B8B8B8;
+	float:left;
+	display:black;
+}
+#bottom .a-bottom:hover{
+	color:#1d7ad9;
+}
+#bottom #contact{
+	width:24%;
+	height:80px;
+	float:left;
+}
+#bottom #contact h11{
+	float:left;
+	font-size:13px;
+	line-height:25px;
+	color:#B8B8B8;
+}
+#bottom #contact .img-wechat{
+	height:80px;
+	width:80px;
+	float:right;
+	padding：0 5px;
+} 
+/*底部结束*/
+/*页脚部分*/
+#footer{
+	width:100%;
+	background-color:#1d7ad9;
+	height：40px;
+	line-height:40px;
+	text-align:center;
+	font-size:11px;
+	color:white;
+}
+/*页脚部分结束*/

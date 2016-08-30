@@ -1,0 +1,164 @@
+/*清除默认样式*/
+body,h1,h2,h3,h4,h5,h6,h7,h8,p0,p1,p2,p3,p4,p5,p6,p7,p8,dl,dt,dd,ol,ul,li,th,td,div,span,img,p,button{padding:0;margin:0;}
+h1,h2,h3,th{font-weight:normal;}
+a{text-decoration:none; cursor:pointer;color:inherit;}
+ul,ol,li{list-style:none;}
+table{border-collapse:collapse}
+input,button{border:none;margin:0;padding:0;background:none}
+.clearfix:after{content:"";display:block;}
+.left{float:left;}
+.right{float:right;}
+
+html{
+	width:100%;
+	max-width:1920px;
+	min-width:1230px;
+	font-size:"Microsoft YaHei";
+}
+body{
+	width:100%;
+}
+/*复用的wrap和box样式*/
+/*页眉部分*/
+#wrap{
+	width:1200px;
+	height:40px;
+	line-height:40px;
+	padding:0 15px 0 15px;
+}
+#wrap p0{
+	width:500px;
+	color:#29b078;
+	font-size:15px;
+	float:left;
+}
+#wrap .ul1{
+	width:300px;
+	float:right;
+}
+#wrap .li1{
+	float:right;
+}
+#wrap  .img1{
+	padding:5px 5px;
+	height:30px;
+}
+/*导航栏部分*/
+#navigation{
+	width:1190px;
+	padding:20px;
+	height:60px;
+	background-color:#29b078;
+}
+#navigation  #logo{
+	width:140px;
+	height:80px;
+	color:white;
+	float:left;
+}
+#navigation  p1{
+	width:140px;
+	font-size:30px;
+	color:white;
+	float:left;
+	padding:5px 5px 5px 5px;
+}
+#navigation  p2{
+	width:140px;
+	font-size:12px;
+	color:white;
+	float:left;
+	padding:0 5px 10px 5px;
+}
+#navigation .ul2{
+	width:450px;
+	float:right;
+}
+#navigation .li2{
+	width:60px;
+	height:40px;
+	line-height:40px;
+	padding:10px;
+	color:white;
+	float:right;
+	font-size:20px;
+}
+/*导航栏部分结束*/
+/*页眉部分结束*/
+
+/*页脚部分*/
+#footer{
+	width:1230px;
+	height:160px;
+	padding-top:40px;
+	background-color:#29b078;
+	color:white;
+	border:1px solid white;
+	float:left;
+}
+#footer #footer1{
+	width:350px;
+	margin-left:15px;
+	height:120px;
+	float:left;
+}
+#footer #footer1 p3{
+	font-size:15px;
+	height:80px;
+	width:350px;
+	float:left;
+}
+#footer #footer1 p4{
+	font-size:12px;
+	height:40px;
+	width:350px;
+	color:white;
+	float:left;
+}
+#footer #footer2{
+	width:250px;
+	height:120px;
+	float:left;
+}
+#footer #footer2 p5{
+	font-size:16px;
+	color:white;
+	height:30px;
+	width:250px;
+	padding:5px 0px;
+	float:left;
+}
+#footer #footer2 p6{
+	font-size:12px;
+	height:20px;
+	width:120px;
+	padding:10px 0;
+	float:left;
+}
+#footer #footer3{
+	width:80px;
+	padding-right:40px;
+	height:100px;
+	float:right;
+}
+#footer #footer3 p7{
+	width:90px;
+	height:30px;
+	color:white;
+	font-size:16px;
+}
+#footer #footer3 .img-wechat2{
+	width:90px;
+	height:90px;
+}
+#footer #footer4{
+	width:1230px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	font-size:12px;
+	border-top:1px #32c086 solid;
+	float:left;
+}
+/*页脚部分结束*/

@@ -1,0 +1,65 @@
+body,h1,h2,h3,h4,dl,dt,dd,ol,ul,li,th,td,div,span,img,p,button{padding:0;margin:0;}
+h1,h2,h3,th{font-weight:normal;}
+a{text-decoration:none; cursor:pointer;color:inherit;}
+ul,ol,li{list-style:none;}
+table{border-collapse:collapse}
+input{border:none;margin:0;padding:0;background:none}
+.clearfix:after{content:"";display:block;}
+.left{float:left;}
+.right{float:right;}
+
+/*@media only screen and (min-width: 320px) {*/
+    /*html {*/
+        /*font-size: 62.5%;*/
+    /*}*/
+/*}*/
+/*@media only screen and (min-width: 720px) {*/
+    /*html {*/
+        /*font-size: 100%;*/
+    /*}*/
+/*}*/
+
+html{
+	width:100%;
+	min-width:320px;
+	height:100%;
+	font-size:125%;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+body{
+	width:100%;
+	height:100%;
+}
+#header{
+	width:100%;
+	height:4.25rem;
+	background:#5fc0cd;
+	position:fixed;
+	left:0;
+	top:0;
+}
+#header a{
+	width:2.25rem;
+	height:2.25rem;
+	display:block;
+	margin:1rem 0 1rem 1.3rem;
+	/*background:url("") no-repeat 0.45rem 0.35rem;*/
+	float: left;
+}
+#header a img{
+	height:100%;
+	/*padding-left:1.7rem;*/
+}
+#header h1{
+	font-size:1.8rem;
+	color:#ffffff;
+	line-height:4.25rem;
+	position:absolute;
+	left:50%;
+	margin-left:-3.6rem;
+}
+
+
+
+
+

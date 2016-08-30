@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,dl,dt,dd,ol,ul,li,th,td,div,span,img,p,button{padding:0;margin:0;}
+body,h1,h2,h3,h4,h5,dl,dt,dd,ol,ul,li,th,td,div,span,img,p,button{padding:0;margin:0;}
 h1,h2,h3,th{font-weight:normal;}
 a{text-decoration:none; cursor:pointer;color:inherit;}
 ul,ol,li{list-style:none;}
@@ -32,29 +32,120 @@ body{
 }
 #header{
 	width:100%;
-	height:3.5rem;
+	height:4.5rem;
 	position:fixed;
 	left:0;
 	top:0;
 	background-color:#29bde0;
-	background:url(img6-2/task6-2_三条杠.png) no-repeat;
 }
-.a1{
+.img1a{
 	
-	margin:1.2rem 0 0.6rem 0.8rem;
-	height:1.7rem;
-	width:1.7rem;
-	float:left;
-	border: 1px solid red; 
-	background:url(img6-2/task6-2_三条杠.png) no-repeat;
+	margin:1.6rem 0 0.8rem 0.8rem;
+	height:2.1rem;
+	width:2.1rem;
+	float:left; 
+}
+h1{
+	color:white;
+	font-size:1.4rem;
+	text-align:center;
+	margin:1.6rem 0 0.8rem 0;
+	height:2.1rem;
+}
+.img1b{
 	
+	margin:1.7rem 0.8rem 0.8rem 0;
+	height:2rem;
+	width:2rem;
+	float:right;
 }
 
 #main
 {
 	width:100%;
-	height:100%;
-	margin-top:3.5rem;
-	padding:1rem 0 2.5rem 0;
-	background-color:#f0f0f0;
+	height:190%;
+	margin-top:4.5rem;
+	margin-bottom:8.3rem;
+	background-color:#29bde0;
+}
+#box1{
+	width:100%;
+	height:4rem;
+	line-height:4rem;
+	background-color:#b9e9f5;
+}
+h2{
+	margin-left:2.3rem;
+	font-size:1.1rem;
+}
+.img2{
+	margin:0.6rem 0.8rem 0.6rem 0;
+	height:2.8rem;
+	float:right;
+}
+h3{
+	color:white;
+	font-size:1.1rem;
+	margin:1rem 0 1.5rem 2.5rem;
+}
+
+.box2{
+	margin:0.4rem 5vw 3.2rem 5vw;
+	border: 0.2rem solid white;
+	width:21vw;
+	height:21vw;
+	float:left;
+	
+}
+h4{
+	width:21vw;
+	height:14.7vw;
+	line-height:14.7vw;
+	font-size:1.2rem;
+	text-align:center;
+	background-color:#fbb435;
+}
+h5{
+	background-color:#83b09a;
+	text-align:center;
+	width:21vw;
+	height:6.3vw;
+	line-height:6.3vw;
+	font-size:0.7rem;
+	color:white;
+	float:left;
+}
+.img3{
+	width:21vw;
+	margin:1rem 0 0 0;
+	float：left;
+	opacity:0;
+}
+.hover .img3{
+	width:21vw;
+	margin:1rem 0 0 0;
+	float：left;
+	opacity:1;
+}
+
+
+#footer
+{
+	width:100%;
+	height:8.3rem;
+	background-color:#29bde0;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+h6
+{
+	width:76%;
+	height:3.8rem;
+	margin:1.8rem 12% 2.7rem 12%;
+	background-color:#fbb435;
+	color:white;
+	text-align:center;
+	line-height:3.8rem;
+	font-size:1.5rem;
 }
