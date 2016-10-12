@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style type="text/css">
+  <meta name="viewport" content="width=divice-width,initial-scale=1,maximum-scale=1" />
+ 
+   html,body
+    {
+        margin:0px;
+        width:100%;
+    }
+    div#container
+    {
+        width:50%;
+        height:50vw;
+        margin:25%;
+    }
+   .box
+    {
+     width:30%;
+     height:30%;
+     margin-left:2.5%;
+     margin-top:2.5%;
+     float:left;
+     border-radius:5%;
+	 
+    }
+  </style>
+ </head>
+
+ <body>
+   <div id="container">
+   <div class="box" id="block1"></div>
+   <div class="box" id="block2"></div>
+   <div class="box" id="block3"></div>
+   <div class="box" id="block4"></div>
+   <div class="box" id="block5"></div>
+   <div class="box" id="block6"></div>
+   <div class="box" id="block7"></div>
+   <div class="box" id="block8"></div>
+   <div class="box" id="block9"></div>
+   </div>
+   <script>
+		function blo(){
+			var cols=["red","blue","green","blue","red","green","red","green","blue"]
+		//初始化颜色
+   		for (i=1;i<=9;i++)
+		{
+   		document.getElementById("block"+i).style.backgroundColor = "orange";
+		}
+		//block和颜色随机
+			var x
+			x = Math.floor(Math.random()*9+1);
+			x1 = Math.floor(Math.random()*9);
+		document.getElementById("block"+x).style.backgroundColor = cols[x1];	
+		
+   		
+		}
+		var id = setInterval("blo()",1000)
+   </script>
+ </body>
+</html>
